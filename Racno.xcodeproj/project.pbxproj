@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734A153A2B79B078008966E3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15392B79B078008966E3 /* Tests_iOS.swift */; };
+		734A153C2B79B078008966E3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A153B2B79B078008966E3 /* Tests_iOSLaunchTests.swift */; };
+		734A15462B79B078008966E3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15452B79B078008966E3 /* Tests_macOS.swift */; };
+		734A15482B79B078008966E3 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15472B79B078008966E3 /* Tests_macOSLaunchTests.swift */; };
+		734A15492B79B078008966E3 /* RacnoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15212B79B071008966E3 /* RacnoApp.swift */; };
+		734A154A2B79B078008966E3 /* RacnoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15212B79B071008966E3 /* RacnoApp.swift */; };
+		734A154B2B79B078008966E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15222B79B071008966E3 /* ContentView.swift */; };
+		734A154C2B79B078008966E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15222B79B071008966E3 /* ContentView.swift */; };
+		734A154D2B79B078008966E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734A15232B79B078008966E3 /* Assets.xcassets */; };
+		734A154E2B79B078008966E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734A15232B79B078008966E3 /* Assets.xcassets */; };
+		734A155E2B79B21F008966E3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A155D2B79B21F008966E3 /* MapView.swift */; };
+		734A155F2B79B21F008966E3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A155D2B79B21F008966E3 /* MapView.swift */; };
+		734A15612B79B24F008966E3 /* PhotoUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15602B79B24F008966E3 /* PhotoUploadView.swift */; };
+		734A15622B79B24F008966E3 /* PhotoUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15602B79B24F008966E3 /* PhotoUploadView.swift */; };
+		734A15642B79B275008966E3 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15632B79B275008966E3 /* AuthenticationView.swift */; };
+		734A15652B79B275008966E3 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15632B79B275008966E3 /* AuthenticationView.swift */; };
+		734A15672B79B2D8008966E3 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15662B79B2D8008966E3 /* AuthenticationManager.swift */; };
+		734A15682B79B2D8008966E3 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15662B79B2D8008966E3 /* AuthenticationManager.swift */; };
+		734A156A2B79B354008966E3 /* AddPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15692B79B354008966E3 /* AddPinView.swift */; };
+		734A156B2B79B354008966E3 /* AddPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15692B79B354008966E3 /* AddPinView.swift */; };
+		734A156D2B79B378008966E3 /* PhotoUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A156C2B79B378008966E3 /* PhotoUploadManager.swift */; };
+		734A156E2B79B378008966E3 /* PhotoUploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A156C2B79B378008966E3 /* PhotoUploadManager.swift */; };
+		734A15702B79B395008966E3 /* ItemDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A156F2B79B395008966E3 /* ItemDescriptionView.swift */; };
+		734A15712B79B395008966E3 /* ItemDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A156F2B79B395008966E3 /* ItemDescriptionView.swift */; };
+		734A15732B79B3AD008966E3 /* UserInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15722B79B3AD008966E3 /* UserInteractionManager.swift */; };
+		734A15742B79B3AD008966E3 /* UserInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15722B79B3AD008966E3 /* UserInteractionManager.swift */; };
+		734A15762B79B67D008966E3 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15752B79B67D008966E3 /* NavigationManager.swift */; };
+		734A15772B79B67D008966E3 /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15752B79B67D008966E3 /* NavigationManager.swift */; };
+		734A15792B79B694008966E3 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15782B79B694008966E3 /* ItemDetail.swift */; };
+		734A157A2B79B694008966E3 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15782B79B694008966E3 /* ItemDetail.swift */; };
+		734A157C2B79B6AC008966E3 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A157B2B79B6AC008966E3 /* FirebaseManager.swift */; };
+		734A157D2B79B6AC008966E3 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A157B2B79B6AC008966E3 /* FirebaseManager.swift */; };
+		734A157F2B79B6C5008966E3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A157E2B79B6C5008966E3 /* UserModel.swift */; };
+		734A15802B79B6C5008966E3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A157E2B79B6C5008966E3 /* UserModel.swift */; };
+		734A15822B79B6D8008966E3 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15812B79B6D8008966E3 /* ItemModel.swift */; };
+		734A15832B79B6D8008966E3 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15812B79B6D8008966E3 /* ItemModel.swift */; };
+		734A15852B79B92E008966E3 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15842B79B92E008966E3 /* MapAnnotationView.swift */; };
+		734A15862B79B92E008966E3 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15842B79B92E008966E3 /* MapAnnotationView.swift */; };
+		734A15882B79B95B008966E3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15872B79B95B008966E3 /* ProfileView.swift */; };
+		734A15892B79B95B008966E3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A15872B79B95B008966E3 /* ProfileView.swift */; };
+		734A158B2B79B98F008966E3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A158A2B79B98F008966E3 /* Item.swift */; };
+		734A158C2B79B98F008966E3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734A158A2B79B98F008966E3 /* Item.swift */; };
+		734A158E2B79BEBE008966E3 /* Supporting Files in Resources */ = {isa = PBXBuildFile; fileRef = 734A158D2B79BEBE008966E3 /* Supporting Files */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		734A15362B79B078008966E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734A151C2B79B071008966E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734A15272B79B078008966E3;
+			remoteInfo = "Racno (iOS)";
+		};
+		734A15422B79B078008966E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734A151C2B79B071008966E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734A152D2B79B078008966E3;
+			remoteInfo = "Racno (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		734A15212B79B071008966E3 /* RacnoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacnoApp.swift; sourceTree = "<group>"; };
+		734A15222B79B071008966E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		734A15232B79B078008966E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		734A15282B79B078008966E3 /* Racno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Racno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		734A152E2B79B078008966E3 /* Racno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Racno.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		734A15302B79B078008966E3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		734A15352B79B078008966E3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734A15392B79B078008966E3 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		734A153B2B79B078008966E3 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		734A15412B79B078008966E3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734A15452B79B078008966E3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		734A15472B79B078008966E3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		734A155D2B79B21F008966E3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		734A15602B79B24F008966E3 /* PhotoUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUploadView.swift; sourceTree = "<group>"; };
+		734A15632B79B275008966E3 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		734A15662B79B2D8008966E3 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		734A15692B79B354008966E3 /* AddPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPinView.swift; sourceTree = "<group>"; };
+		734A156C2B79B378008966E3 /* PhotoUploadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoUploadManager.swift; sourceTree = "<group>"; };
+		734A156F2B79B395008966E3 /* ItemDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDescriptionView.swift; sourceTree = "<group>"; };
+		734A15722B79B3AD008966E3 /* UserInteractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractionManager.swift; sourceTree = "<group>"; };
+		734A15752B79B67D008966E3 /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		734A15782B79B694008966E3 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		734A157B2B79B6AC008966E3 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		734A157E2B79B6C5008966E3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		734A15812B79B6D8008966E3 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		734A15842B79B92E008966E3 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		734A15872B79B95B008966E3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		734A158A2B79B98F008966E3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		734A158D2B79BEBE008966E3 /* Supporting Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Supporting Files"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		734A15252B79B078008966E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734A152B2B79B078008966E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734A15322B79B078008966E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734A153E2B79B078008966E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		734A151B2B79B071008966E3 = {
+			isa = PBXGroup;
+			children = (
+				734A158D2B79BEBE008966E3 /* Supporting Files */,
+				734A15202B79B071008966E3 /* Shared */,
+				734A152F2B79B078008966E3 /* macOS */,
+				734A15382B79B078008966E3 /* Tests iOS */,
+				734A15442B79B078008966E3 /* Tests macOS */,
+				734A15292B79B078008966E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		734A15202B79B071008966E3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				734A15212B79B071008966E3 /* RacnoApp.swift */,
+				734A15602B79B24F008966E3 /* PhotoUploadView.swift */,
+				734A155D2B79B21F008966E3 /* MapView.swift */,
+				734A15222B79B071008966E3 /* ContentView.swift */,
+				734A15232B79B078008966E3 /* Assets.xcassets */,
+				734A15632B79B275008966E3 /* AuthenticationView.swift */,
+				734A15662B79B2D8008966E3 /* AuthenticationManager.swift */,
+				734A15692B79B354008966E3 /* AddPinView.swift */,
+				734A156C2B79B378008966E3 /* PhotoUploadManager.swift */,
+				734A156F2B79B395008966E3 /* ItemDescriptionView.swift */,
+				734A15722B79B3AD008966E3 /* UserInteractionManager.swift */,
+				734A15752B79B67D008966E3 /* NavigationManager.swift */,
+				734A15782B79B694008966E3 /* ItemDetail.swift */,
+				734A157B2B79B6AC008966E3 /* FirebaseManager.swift */,
+				734A157E2B79B6C5008966E3 /* UserModel.swift */,
+				734A15812B79B6D8008966E3 /* ItemModel.swift */,
+				734A15842B79B92E008966E3 /* MapAnnotationView.swift */,
+				734A15872B79B95B008966E3 /* ProfileView.swift */,
+				734A158A2B79B98F008966E3 /* Item.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		734A15292B79B078008966E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				734A15282B79B078008966E3 /* Racno.app */,
+				734A152E2B79B078008966E3 /* Racno.app */,
+				734A15352B79B078008966E3 /* Tests iOS.xctest */,
+				734A15412B79B078008966E3 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734A152F2B79B078008966E3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				734A15302B79B078008966E3 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		734A15382B79B078008966E3 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				734A15392B79B078008966E3 /* Tests_iOS.swift */,
+				734A153B2B79B078008966E3 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		734A15442B79B078008966E3 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				734A15452B79B078008966E3 /* Tests_macOS.swift */,
+				734A15472B79B078008966E3 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		734A15272B79B078008966E3 /* Racno (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734A15512B79B078008966E3 /* Build configuration list for PBXNativeTarget "Racno (iOS)" */;
+			buildPhases = (
+				734A15242B79B078008966E3 /* Sources */,
+				734A15252B79B078008966E3 /* Frameworks */,
+				734A15262B79B078008966E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Racno (iOS)";
+			productName = "Racno (iOS)";
+			productReference = 734A15282B79B078008966E3 /* Racno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		734A152D2B79B078008966E3 /* Racno (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734A15542B79B078008966E3 /* Build configuration list for PBXNativeTarget "Racno (macOS)" */;
+			buildPhases = (
+				734A152A2B79B078008966E3 /* Sources */,
+				734A152B2B79B078008966E3 /* Frameworks */,
+				734A152C2B79B078008966E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Racno (macOS)";
+			productName = "Racno (macOS)";
+			productReference = 734A152E2B79B078008966E3 /* Racno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		734A15342B79B078008966E3 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734A15572B79B078008966E3 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				734A15312B79B078008966E3 /* Sources */,
+				734A15322B79B078008966E3 /* Frameworks */,
+				734A15332B79B078008966E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734A15372B79B078008966E3 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 734A15352B79B078008966E3 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		734A15402B79B078008966E3 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734A155A2B79B078008966E3 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				734A153D2B79B078008966E3 /* Sources */,
+				734A153E2B79B078008966E3 /* Frameworks */,
+				734A153F2B79B078008966E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734A15432B79B078008966E3 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 734A15412B79B078008966E3 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		734A151C2B79B071008966E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					734A15272B79B078008966E3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					734A152D2B79B078008966E3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					734A15342B79B078008966E3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 734A15272B79B078008966E3;
+					};
+					734A15402B79B078008966E3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 734A152D2B79B078008966E3;
+					};
+				};
+			};
+			buildConfigurationList = 734A151F2B79B071008966E3 /* Build configuration list for PBXProject "Racno" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 734A151B2B79B071008966E3;
+			productRefGroup = 734A15292B79B078008966E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				734A15272B79B078008966E3 /* Racno (iOS) */,
+				734A152D2B79B078008966E3 /* Racno (macOS) */,
+				734A15342B79B078008966E3 /* Tests iOS */,
+				734A15402B79B078008966E3 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		734A15262B79B078008966E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734A158E2B79BEBE008966E3 /* Supporting Files in Resources */,
+				734A154D2B79B078008966E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734A152C2B79B078008966E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734A154E2B79B078008966E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734A15332B79B078008966E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734A153F2B79B078008966E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		734A15242B79B078008966E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734A15822B79B6D8008966E3 /* ItemModel.swift in Sources */,
+				734A157C2B79B6AC008966E3 /* FirebaseManager.swift in Sources */,
+				734A15762B79B67D008966E3 /* NavigationManager.swift in Sources */,
+				734A15792B79B694008966E3 /* ItemDetail.swift in Sources */,
+				734A154B2B79B078008966E3 /* ContentView.swift in Sources */,
+				734A155E2B79B21F008966E3 /* MapView.swift in Sources */,
+				734A15852B79B92E008966E3 /* MapAnnotationView.swift in Sources */,
+				734A15702B79B395008966E3 /* ItemDescriptionView.swift in Sources */,
+				734A15612B79B24F008966E3 /* PhotoUploadView.swift in Sources */,
+				734A15882B79B95B008966E3 /* ProfileView.swift in Sources */,
+				734A158B2B79B98F008966E3 /* Item.swift in Sources */,
+				734A15672B79B2D8008966E3 /* AuthenticationManager.swift in Sources */,
+				734A157F2B79B6C5008966E3 /* UserModel.swift in Sources */,
+				734A15732B79B3AD008966E3 /* UserInteractionManager.swift in Sources */,
+				734A15492B79B078008966E3 /* RacnoApp.swift in Sources */,
+				734A156D2B79B378008966E3 /* PhotoUploadManager.swift in Sources */,
+				734A15642B79B275008966E3 /* AuthenticationView.swift in Sources */,
+				734A156A2B79B354008966E3 /* AddPinView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734A152A2B79B078008966E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734A15832B79B6D8008966E3 /* ItemModel.swift in Sources */,
+				734A157D2B79B6AC008966E3 /* FirebaseManager.swift in Sources */,
+				734A15772B79B67D008966E3 /* NavigationManager.swift in Sources */,
+				734A157A2B79B694008966E3 /* ItemDetail.swift in Sources */,
+				734A154C2B79B078008966E3 /* ContentView.swift in Sources */,
+				734A155F2B79B21F008966E3 /* MapView.swift in Sources */,
+				734A15862B79B92E008966E3 /* MapAnnotationView.swift in Sources */,
+				734A15712B79B395008966E3 /* ItemDescriptionView.swift in Sources */,
+				734A15622B79B24F008966E3 /* PhotoUploadView.swift in Sources */,
+				734A15892B79B95B008966E3 /* ProfileView.swift in Sources */,
+				734A158C2B79B98F008966E3 /* Item.swift in Sources */,
+				734A15682B79B2D8008966E3 /* AuthenticationManager.swift in Sources */,
+				734A15802B79B6C5008966E3 /* UserModel.swift in Sources */,
+				734A15742B79B3AD008966E3 /* UserInteractionManager.swift in Sources */,
+				734A154A2B79B078008966E3 /* RacnoApp.swift in Sources */,
+				734A156E2B79B378008966E3 /* PhotoUploadManager.swift in Sources */,
+				734A15652B79B275008966E3 /* AuthenticationView.swift in Sources */,
+				734A156B2B79B354008966E3 /* AddPinView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734A15312B79B078008966E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734A153C2B79B078008966E3 /* Tests_iOSLaunchTests.swift in Sources */,
+				734A153A2B79B078008966E3 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734A153D2B79B078008966E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734A15482B79B078008966E3 /* Tests_macOSLaunchTests.swift in Sources */,
+				734A15462B79B078008966E3 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		734A15372B79B078008966E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734A15272B79B078008966E3 /* Racno (iOS) */;
+			targetProxy = 734A15362B79B078008966E3 /* PBXContainerItemProxy */;
+		};
+		734A15432B79B078008966E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734A152D2B79B078008966E3 /* Racno (macOS) */;
+			targetProxy = 734A15422B79B078008966E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		734A154F2B79B078008966E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		734A15502B79B078008966E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		734A15522B79B078008966E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GZ676D8SX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Supporting Files/GoogleService-Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "Supporting Files/GoogleService-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Racno.Racno;
+				PRODUCT_NAME = Racno;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		734A15532B79B078008966E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GZ676D8SX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Racno.Racno;
+				PRODUCT_NAME = Racno;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		734A15552B79B078008966E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GZ676D8SX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Racno.Racno;
+				PRODUCT_NAME = Racno;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		734A15562B79B078008966E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GZ676D8SX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Racno.Racno;
+				PRODUCT_NAME = Racno;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		734A15582B79B078008966E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GZ676D8SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Racno.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Racno (iOS)";
+			};
+			name = Debug;
+		};
+		734A15592B79B078008966E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GZ676D8SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Racno.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Racno (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		734A155B2B79B078008966E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GZ676D8SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Racno.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Racno (macOS)";
+			};
+			name = Debug;
+		};
+		734A155C2B79B078008966E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GZ676D8SX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Racno.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Racno (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		734A151F2B79B071008966E3 /* Build configuration list for PBXProject "Racno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734A154F2B79B078008966E3 /* Debug */,
+				734A15502B79B078008966E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734A15512B79B078008966E3 /* Build configuration list for PBXNativeTarget "Racno (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734A15522B79B078008966E3 /* Debug */,
+				734A15532B79B078008966E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734A15542B79B078008966E3 /* Build configuration list for PBXNativeTarget "Racno (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734A15552B79B078008966E3 /* Debug */,
+				734A15562B79B078008966E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734A15572B79B078008966E3 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734A15582B79B078008966E3 /* Debug */,
+				734A15592B79B078008966E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734A155A2B79B078008966E3 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734A155B2B79B078008966E3 /* Debug */,
+				734A155C2B79B078008966E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 734A151C2B79B071008966E3 /* Project object */;
+}

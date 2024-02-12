@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>510485971334-3pp63orna5kg09k5g1tgn321vva4m91c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.510485971334-3pp63orna5kg09k5g1tgn321vva4m91c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAZgAVhELVQkssGVQAfzmXebC5zHOyblmg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>510485971334</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>racno.racno</string>
+	<key>PROJECT_ID</key>
+	<string>racno-3d25d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>racno-3d25d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:510485971334:ios:3212950ac25eef9a152c07</string>
+</dict>
+</plist>
